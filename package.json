@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-ln",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Natural logarithm.",
   "license": "Apache-2.0",
   "author": {
