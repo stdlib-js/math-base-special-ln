@@ -24,30 +24,32 @@ limitations under the License.
 
 > Evaluate the [natural logarithm][natural-logarithm].
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/math-base-special-ln
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var ln = require( '@stdlib/math-base-special-ln' );
+ln = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.ln;
+})();
+</script>
 ```
 
 #### ln( x )
@@ -85,10 +87,15 @@ var v = ln( -4.0 );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var randu = require( '@stdlib/random-base-randu' );
-var round = require( '@stdlib/math-base-special-round' );
-var ln = require( '@stdlib/math-base-special-ln' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/bundle.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var x;
 var i;
@@ -97,6 +104,11 @@ for ( i = 0; i < 100; i++ ) {
     x = round( randu() * 100.0 );
     console.log( 'ln(%d) = %d', x, ln( x ) );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -186,13 +198,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp
+[@stdlib/math/base/special/exp]: https://github.com/stdlib-js/math-base-special-exp/tree/umd
 
-[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math-base-special-log10
+[@stdlib/math/base/special/log10]: https://github.com/stdlib-js/math-base-special-log10/tree/umd
 
-[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p
+[@stdlib/math/base/special/log1p]: https://github.com/stdlib-js/math-base-special-log1p/tree/umd
 
-[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2
+[@stdlib/math/base/special/log2]: https://github.com/stdlib-js/math-base-special-log2/tree/umd
 
 <!-- </related-links> -->
 
