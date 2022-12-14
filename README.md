@@ -18,11 +18,11 @@ limitations under the License.
 
 -->
 
-# Natural Logarithm
+# ln
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Evaluate the [natural logarithm][natural-logarithm].
+> Evaluate the [natural logarithm][natural-logarithm] of a double-precision floating-point number.
 
 <section class="installation">
 
@@ -52,7 +52,7 @@ var ln = require( '@stdlib/math-base-special-ln' );
 
 #### ln( x )
 
-Evaluates the [natural logarithm][natural-logarithm].
+Evaluates the [natural logarithm][natural-logarithm] of a double-precision floating-point number.
 
 ```javascript
 var v = ln( 4.0 );
@@ -131,7 +131,7 @@ for ( i = 0; i < 100; i++ ) {
 
 #### stdlib_base_ln( x )
 
-Evaluates the [natural logarithm][natural-logarithm].
+Evaluates the [natural logarithm][natural-logarithm] of a double-precision floating-point number.
 
 ```c
 double v = stdlib_base_ln( 2.0 );
