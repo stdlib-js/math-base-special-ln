@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-ln/tags). For example,
+
+```javascript
 import ln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@v0.1.1-deno/mod.js';
 ```
 
@@ -83,7 +88,7 @@ var v = ln( -4.0 );
 ```javascript
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
-import ln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@v0.1.1-deno/mod.js';
+import ln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@deno/mod.js';
 
 var x;
 var i;
