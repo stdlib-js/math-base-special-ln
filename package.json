@@ -54,7 +54,7 @@
     "@stdlib/constants-float64-pinf": "^0.1.1",
     "@stdlib/fs-read-file": "^0.1.1",
     "@stdlib/fs-write-file": "^0.1.1",
-    "@stdlib/math-base-special-abs": "^0.1.0",
+    "@stdlib/math-base-special-abs": "^0.1.1",
     "@stdlib/math-base-special-round": "^0.1.1",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.1.0",
     "@stdlib/math-base-tools-evalpoly-compile-c": "^0.1.0",
