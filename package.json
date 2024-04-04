@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-ln",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Evaluate the natural logarithm of a double-precision floating-point number.",
   "license": "Apache-2.0",
   "author": {
