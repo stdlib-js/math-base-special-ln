@@ -6,12 +6,23 @@
 
 ## Unreleased (2024-11-24)
 
+<section class="reverts">
+
+### Reverts
+
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - chore: update to modern benchmark Makefile
+
+</section>
+
+<!-- /.reverts -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`ac4992b`](https://github.com/stdlib-js/stdlib/commit/ac4992b3eeccbfcceea795f86cf669b2481d8250) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`325ca07`](https://github.com/stdlib-js/stdlib/commit/325ca074aa79d05fc6aa551d035d600b7bb66f2e) - **bench:** refactor benchmarks _(by Athan Reines)_
 -   [`923a355`](https://github.com/stdlib-js/stdlib/commit/923a3553d58b3dac76c22d895bf0bf7c7c3bc75e) - **bench:** refactor C benchmarks _(by Athan Reines)_
