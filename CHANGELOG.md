@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-23)
+## Unreleased (2025-03-29)
 
 <section class="reverts">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`a644ffe`](https://github.com/stdlib-js/stdlib/commit/a644ffeba579430f342444b80fa9d21cc4a635f4) - **chore:** remove obsolete accuracy and precision scripts [(#6435)](https://github.com/stdlib-js/stdlib/pull/6435) _(by Karan Anand)_
 -   [`2ea848b`](https://github.com/stdlib-js/stdlib/commit/2ea848b62b686e1e9d861f7df25ece23a7d80798) - **style:** update to use tabs for indentation _(by Philipp Burckhardt)_
 -   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
@@ -42,9 +43,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 
 </section>
