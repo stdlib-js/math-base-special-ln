@@ -57,6 +57,7 @@
     "@stdlib/fs-write-file": "^0.2.2",
     "@stdlib/math-base-assert-is-positive-zero": "^0.2.2",
     "@stdlib/math-base-special-abs": "^0.2.2",
+    "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.3.0",
     "@stdlib/math-base-tools-evalpoly-compile-c": "^0.1.1",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
