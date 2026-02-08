@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@esm/index.mjs';
+import ln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@v0.2.5-esm/index.mjs';
 ```
 
 #### ln( x )
@@ -88,7 +88,7 @@ var v = ln( -4.0 );
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import ln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@esm/index.mjs';
+import ln from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-ln@v0.2.5-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
