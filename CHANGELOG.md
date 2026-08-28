@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-27)
+## Unreleased (2026-08-28)
 
 <section class="commits">
 
@@ -12,6 +12,8 @@
 
 <details>
 
+-   [`e67a5aa`](https://github.com/stdlib-js/stdlib/commit/e67a5aad659d8f6623e4ab8ac94687a8586ea83a) - **docs:** update Markdown equation elements _(by stdlib-bot)_
+-   [`85f4853`](https://github.com/stdlib-js/stdlib/commit/85f48534ef6908bbcd982d48f1c5fbea3fb7aafd) - **docs:** update Markdown equation SVGs _(by stdlib-bot)_
 -   [`c782464`](https://github.com/stdlib-js/stdlib/commit/c7824645f4527c54afc18e03b79e73224d156265) - **docs:** add equations [(#14688)](https://github.com/stdlib-js/stdlib/pull/14688) _(by Karan Anand)_
 -   [`39e37e8`](https://github.com/stdlib-js/stdlib/commit/39e37e8e818d62b6dcdca5f0c845dcf64250e4a4) - **test:** migrate `math/base/special/ln` to ULP difference testing [(#13742)](https://github.com/stdlib-js/stdlib/pull/13742) _(by Arjan-P)_
 -   [`b953edd`](https://github.com/stdlib-js/stdlib/commit/b953edd95d0ca1b521d0abbd2c2719d099ff7807) - **refactor:** use `constants/float64/nan` and clean-up [(#13585)](https://github.com/stdlib-js/stdlib/pull/13585) _(by Philipp Burckhardt)_
